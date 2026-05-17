@@ -9,6 +9,8 @@ import { createRoot } from 'react-dom/client';
 import { FocusScreen } from './04-useRef/FocusScreen';
 
 import './index.css';
+import { TasksApp } from './05-useReducer/TasksApp';
+import { ScrambleWords } from './05-useReducer/ScrambleWords';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -17,6 +19,8 @@ createRoot(document.getElementById('root')!).render(
     {/* <TrafficLightWithEffect /> */}
     {/* <TrafficLightWithHook /> */}
     {/* <PokemonPage /> */}
-    <FocusScreen />
+    {/* <FocusScreen /> */}
+    {/* <TasksApp/> */}
+    <ScrambleWords/>
   </StrictMode>
 );
